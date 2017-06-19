@@ -1,0 +1,7 @@
+LovePlay.xcodeproj/xcuserdata/
+LovePlay.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+LovePlay.xcodeproj/project.xcworkspace/xcuserdata/
