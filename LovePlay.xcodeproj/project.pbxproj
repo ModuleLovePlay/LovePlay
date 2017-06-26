@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		A77E4C7D1EF81148000FC643 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A77E4C7C1EF81148000FC643 /* main.m */; };
 		A77E4C801EF81148000FC643 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A77E4C7F1EF81148000FC643 /* AppDelegate.m */; };
-		A77E4C861EF81148000FC643 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77E4C841EF81148000FC643 /* Main.storyboard */; };
 		A77E4C881EF81148000FC643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77E4C871EF81148000FC643 /* Assets.xcassets */; };
 		A77E4C8B1EF81148000FC643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77E4C891EF81148000FC643 /* LaunchScreen.storyboard */; };
-		A77E4C951EF81323000FC643 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A77E4C941EF81323000FC643 /* ViewController.m */; };
+		A78FEDE41EFB98E400E94484 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A78FEDE31EFB98E400E94484 /* MainTabBarController.m */; };
+		A78FEDE71EFB98FF00E94484 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A78FEDE61EFB98FF00E94484 /* MainNavigationController.m */; };
+		A78FEDEA1EFB9A8500E94484 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A78FEDE91EFB9A8500E94484 /* ViewController.m */; };
+		AAF6453D7F6DACF2C0931F9C /* libPods-LovePlay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBA1A6892768A33D52D8129 /* libPods-LovePlay.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02F40B06671E4A80E40A717A /* Pods-LovePlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovePlay.release.xcconfig"; path = "Pods/Target Support Files/Pods-LovePlay/Pods-LovePlay.release.xcconfig"; sourceTree = "<group>"; };
 		A77E4C781EF81148000FC643 /* LovePlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LovePlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77E4C7C1EF81148000FC643 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A77E4C7E1EF81148000FC643 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A77E4C7F1EF81148000FC643 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A77E4C851EF81148000FC643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A77E4C871EF81148000FC643 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A77E4C8A1EF81148000FC643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A77E4C8C1EF81148000FC643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A77E4C931EF81323000FC643 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A77E4C941EF81323000FC643 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A78FEDE21EFB98E400E94484 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		A78FEDE31EFB98E400E94484 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		A78FEDE51EFB98FF00E94484 /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		A78FEDE61EFB98FF00E94484 /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+		A78FEDE81EFB9A8500E94484 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A78FEDE91EFB9A8500E94484 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABBA1A6892768A33D52D8129 /* libPods-LovePlay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LovePlay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4244CA45CDBD16A7C44A40A /* Pods-LovePlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovePlay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LovePlay/Pods-LovePlay.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF6453D7F6DACF2C0931F9C /* libPods-LovePlay.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06F23EAD976A1F53032226B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4244CA45CDBD16A7C44A40A /* Pods-LovePlay.debug.xcconfig */,
+				02F40B06671E4A80E40A717A /* Pods-LovePlay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3326BACCAA2D55E54F69CA78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABBA1A6892768A33D52D8129 /* libPods-LovePlay.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A77E4C6F1EF81148000FC643 = {
 			isa = PBXGroup;
 			children = (
 				A77E4C7A1EF81148000FC643 /* LovePlay */,
 				A77E4C791EF81148000FC643 /* Products */,
+				06F23EAD976A1F53032226B9 /* Pods */,
+				3326BACCAA2D55E54F69CA78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,7 +89,8 @@
 				A77E4C921EF81273000FC643 /* LovePlay */,
 				A77E4C7E1EF81148000FC643 /* AppDelegate.h */,
 				A77E4C7F1EF81148000FC643 /* AppDelegate.m */,
-				A77E4C841EF81148000FC643 /* Main.storyboard */,
+				A78FEDE81EFB9A8500E94484 /* ViewController.h */,
+				A78FEDE91EFB9A8500E94484 /* ViewController.m */,
 				A77E4C871EF81148000FC643 /* Assets.xcassets */,
 				A77E4C891EF81148000FC643 /* LaunchScreen.storyboard */,
 				A77E4C8C1EF81148000FC643 /* Info.plist */,
@@ -81,8 +110,10 @@
 		A77E4C921EF81273000FC643 /* LovePlay */ = {
 			isa = PBXGroup;
 			children = (
-				A77E4C931EF81323000FC643 /* ViewController.h */,
-				A77E4C941EF81323000FC643 /* ViewController.m */,
+				A78FEDE21EFB98E400E94484 /* MainTabBarController.h */,
+				A78FEDE31EFB98E400E94484 /* MainTabBarController.m */,
+				A78FEDE51EFB98FF00E94484 /* MainNavigationController.h */,
+				A78FEDE61EFB98FF00E94484 /* MainNavigationController.m */,
 			);
 			path = LovePlay;
 			sourceTree = "<group>";
@@ -94,9 +125,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A77E4C8F1EF81148000FC643 /* Build configuration list for PBXNativeTarget "LovePlay" */;
 			buildPhases = (
+				9D6128DADAE4EADFB7423C2B /* [CP] Check Pods Manifest.lock */,
 				A77E4C741EF81148000FC643 /* Sources */,
 				A77E4C751EF81148000FC643 /* Frameworks */,
 				A77E4C761EF81148000FC643 /* Resources */,
+				BFDF616A6EBA5E77086AEC08 /* [CP] Embed Pods Frameworks */,
+				8596D0D019DAF68CC675C145 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -147,34 +181,75 @@
 			files = (
 				A77E4C8B1EF81148000FC643 /* LaunchScreen.storyboard in Resources */,
 				A77E4C881EF81148000FC643 /* Assets.xcassets in Resources */,
-				A77E4C861EF81148000FC643 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8596D0D019DAF68CC675C145 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LovePlay/Pods-LovePlay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D6128DADAE4EADFB7423C2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFDF616A6EBA5E77086AEC08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LovePlay/Pods-LovePlay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A77E4C741EF81148000FC643 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A77E4C951EF81323000FC643 /* ViewController.m in Sources */,
 				A77E4C801EF81148000FC643 /* AppDelegate.m in Sources */,
+				A78FEDE41EFB98E400E94484 /* MainTabBarController.m in Sources */,
 				A77E4C7D1EF81148000FC643 /* main.m in Sources */,
+				A78FEDE71EFB98FF00E94484 /* MainNavigationController.m in Sources */,
+				A78FEDEA1EFB9A8500E94484 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A77E4C841EF81148000FC643 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A77E4C851EF81148000FC643 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A77E4C891EF81148000FC643 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -278,10 +353,13 @@
 		};
 		A77E4C901EF81148000FC643 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4244CA45CDBD16A7C44A40A /* Pods-LovePlay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LovePlay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yunschou.LovePlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -289,10 +367,13 @@
 		};
 		A77E4C911EF81148000FC643 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02F40B06671E4A80E40A717A /* Pods-LovePlay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LovePlay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yunschou.LovePlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
